@@ -1,0 +1,55 @@
+<svg height="200" width="200" xmlns="http://www.w3.org/2000/svg" >
+    <title>Key</title>
+	
+    <style>
+		.face
+		{
+			fill:#eee
+		}
+				
+		.bkg{
+			fill:#999
+		}
+		
+		.hl{
+			fill:#BBB;
+		}
+    </style>
+	
+	<path class="bkg" d="
+			M 180,10 
+			a 10,10 0 0 1 10,10 
+			v 160 
+			a 10,10 0 0 1 -10,10 
+			h -160
+			a 10,10 0 0 1 -10,-10 
+			v -160
+			a 10,10 0 0 1 10,-10
+			Z"  
+	/>
+		
+	<path class="hl" d="
+			M 175,140 190,180
+			a 10,10 0 0 1 -10,10 
+			h -160
+			a 10,10 0 0 1 -10,-10
+			L 25,140
+			Z"  
+	/>
+		
+	<path class="face" d="
+			M 170,15 
+			a 5,5 0 0 1 5,5 
+			v 120 
+			a 5,5 0 0 1 -5,5 
+			h -140
+			a 5,5 0 0 1 -5,-5 
+			v -120
+			a 5,5 0 0 1 5,-5 
+			Z"  
+	/>
+	
+	
+	
+	 
+</svg>
